@@ -6,5 +6,22 @@ const StyledPlaylistItems = styled.div`
   height: 28vh;
   max-height: 500px;
 
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background:  #888;
+  }
+
+  ::-webkit-scrollbar-thumb-hover {
+    background: #555;
+  }
+
 `
-  export default StyledPlaylistItems
+  export default StyledPlaylistItems;
