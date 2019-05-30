@@ -10,7 +10,7 @@ const Nightmode = ({nightmodeCallback, nightmode}) => (
    <input type="checkbox" checked={nightmode} onchange={nightmodeCallback} />
    <span classname="slider round" />
    </label>
-        Nightmode!!!
+        Nightmode
    </StyledNightmode>
 
 );
